@@ -24,8 +24,7 @@ test.serial(
         unsafeCleanup: true
     })
         .then((result) => {
-            const tmpPath = result[0];
-            const cleanupCallback = result[1];
+            const [tmpPath, cleanupCallback] = result;
             const wpConfigPath = path.join(fixturesDir, 'wp-config.php');
 
             webpackConfigBase.output.path = tmpPath;
@@ -56,8 +55,7 @@ test.serial(
         unsafeCleanup: true
     })
         .then((result) => {
-            const tmpPath = result[0];
-            const cleanupCallback = result[1];
+            const [tmpPath, cleanupCallback] = result;
             const wpConfigPath = path.join(fixturesDir, 'wp-config.php');
 
             webpackConfigBase.output.path = tmpPath;
@@ -88,8 +86,7 @@ test.serial(
         unsafeCleanup: true
     })
         .then((result) => {
-            const tmpPath = result[0];
-            const cleanupCallback = result[1];
+            const [tmpPath, cleanupCallback] = result;
             const wpConfigPath = path.join(fixturesDir, 'wp-config.php');
 
             webpackConfigBase.output.path = tmpPath;
