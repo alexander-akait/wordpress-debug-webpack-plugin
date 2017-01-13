@@ -1,6 +1,6 @@
 {
     "name": "wordpress-debug-webpack-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Enable or disable Wordpress debug using webpack",
     "license": "MIT",
     "author": "itgalaxy <development@itgalaxy.company>",
