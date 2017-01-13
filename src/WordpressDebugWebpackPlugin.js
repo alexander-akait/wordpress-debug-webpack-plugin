@@ -16,5 +16,10 @@ export default class WordpressDebugWebpackPlugin {
             wordpressDebug(this.wpConfigPath, this.debug),
             (error) => callback(error)
         ));
+
+        compiler.plugin('watch-run', (compilerInstance, callback) => nodeify(
+            wordpressDebug(this.wpConfigPath, this.debug),
+            (error) => callback(error)
+        ));
     }
 }
