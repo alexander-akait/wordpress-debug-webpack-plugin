@@ -7,6 +7,6 @@ export default {
     },
     plugins: [],
     resolve: {
-        modulesDirectories: ['web_modules', 'node_modules']
+        modules: ['web_modules', 'node_modules']
     }
 };

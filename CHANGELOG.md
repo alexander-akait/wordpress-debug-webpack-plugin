@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+# Head
+
+- Fixed: added `webpack` as peer dependencies.
+
 # 1.0.1 - 2016-01-13
 
 - Fixed: enabled and disabled debug in `watch` mode.
