@@ -41,12 +41,12 @@ export default {
 
 ## API
 
-- `wpConfigPath` (require) `string` - Path to `wp-config.php`.
-- `debug` (optional) `boolean` - Enable or disable debug.
+-   `wpConfigPath` (require) `string` - Path to `wp-config.php`.
+-   `debug` (optional) `boolean` - Enable or disable debug.
 
 ## Related
 
-- [wordpress-debug](https://github.com/itgalaxy/wordpress-debug) - Api for this package.
+-   [wordpress-debug](https://github.com/itgalaxy/wordpress-debug) - Api for this package.
 
 ## Contribution
 
