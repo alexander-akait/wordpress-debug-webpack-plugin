@@ -22,7 +22,10 @@ import WordpressDebugWebpackPlugin from 'wordpress-debug-webpack-plugin';
 
 export default {
   plugins: [
-    new WordpressDebugWebpackPlugin('path/to/wp-config.php', true)
+    new WordpressDebugWebpackPlugin({
+        wpConfigPath: 'path/to/wp-config.php', 
+        debug: true
+    })
   ]
 };
 ```
@@ -34,7 +37,10 @@ import WordpressDebugWebpackPlugin from 'wordpress-debug-webpack-plugin';
 
 export default {
   plugins: [
-    new WordpressDebugWebpackPlugin('path/to/wp-config.php', false)
+    new WordpressDebugWebpackPlugin({
+        wpConfigPath: 'path/to/wp-config.php', 
+        debug: false
+    })
   ]
 };
 ```
@@ -42,7 +48,8 @@ export default {
 ## API
 
 -   `wpConfigPath` (require) `string` - Path to `wp-config.php`.
--   `debug` (optional) `boolean` - Enable or disable debug.
+-   `debug` (optional) (default: `true`) `boolean` - Enable or disable debug.
+-   `runOnce` (optional) (default: `true`) `boolean` - Enable or disable multiple run, useful for watch `mode`.
 
 ## Related
 

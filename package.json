@@ -1,6 +1,6 @@
 {
     "name": "wordpress-debug-webpack-plugin",
-    "version": "1.0.2",
+    "version": "2.0.0",
     "description": "Enable or disable Wordpress debug using webpack",
     "license": "MIT",
     "author": "itgalaxy <development@itgalaxy.company>",
@@ -61,7 +61,7 @@
         "remark-cli": "^3.0.0",
         "remark-preset-lint-itgalaxy": "^6.0.0",
         "rimraf": "^2.5.2",
-        "tmp": "^0.0.31",
+        "tempy": "^0.1.0",
         "webpack": "^2.2.1"
     },
     "peerDependencies": {
