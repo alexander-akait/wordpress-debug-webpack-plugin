@@ -1,11 +1,10 @@
 # wordpress-debug-webpack-plugin
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/itgalaxy/wordpress-debug-webpack-plugin.svg)](https://greenkeeper.io/)
-
 [![NPM version](https://img.shields.io/npm/v/wordpress-debug-webpack-plugin.svg)](https://www.npmjs.org/package/wordpress-debug-webpack-plugin) 
 [![Travis Build Status](https://img.shields.io/travis/itgalaxy/wordpress-debug-webpack-plugin/master.svg?label=build)](https://travis-ci.org/itgalaxy/wordpress-debug-webpack-plugin) 
 [![dependencies Status](https://david-dm.org/itgalaxy/wordpress-debug-webpack-plugin/status.svg)](https://david-dm.org/itgalaxy/wordpress-debug-webpack-plugin) 
 [![devDependencies Status](https://david-dm.org/itgalaxy/wordpress-debug-webpack-plugin/dev-status.svg)](https://david-dm.org/itgalaxy/wordpress-debug-webpack-plugin?type=dev)
+[![Greenkeeper badge](https://badges.greenkeeper.io/itgalaxy/wordpress-debug-webpack-plugin.svg)](https://greenkeeper.io/)
 
 Enable or disable Wordpress debug using webpack
 
