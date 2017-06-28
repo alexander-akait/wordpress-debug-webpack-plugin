@@ -1,10 +1,10 @@
-import nodeify from 'nodeify';
-import wordpressDebug from 'wordpress-debug';
+import nodeify from "nodeify";
+import wordpressDebug from "wordpress-debug";
 
 export default class WordpressDebugWebpackPlugin {
     constructor(options = {}) {
         if (!options.wpConfigPath) {
-            throw new Error('Path to `wp-config.php` is required');
+            throw new Error("Path to `wp-config.php` is required");
         }
 
         this.options = Object.assign(
@@ -21,7 +21,7 @@ export default class WordpressDebugWebpackPlugin {
 
     apply(compiler) {
         const { options } = this;
-        const events = ['run', 'watch-run'];
+        const events = ["run", "watch-run"];
         const capitalizeFirstLetter = string =>
             string.charAt(0).toUpperCase() + string.slice(1);
 
